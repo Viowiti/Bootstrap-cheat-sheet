@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .navbar{
+            border-radius:0;
+            margin-bottom:0;
+        }
+    </style>
+
+    
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Bootstrap Cheat sheet</a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+           
+            
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      
+
+      <!--JUMBOTRON(kind of welcome section)-->
+      <div class="jumbotron text-center">
+          <div class="container">
+        <h1>Hello, welcome to my website!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae assumenda ex dicta, possimus, neque odio sequi eligendi voluptate error similique quidem aliquam nihil quas laborum delectus. Neque architecto animi voluptatem?</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Get in..</a></p>
+    </div>  
+    </div>
+
+      <!--TYPOGRAPHY-->
+    <div class="container">
+        <h1 class="page-header">Hello, world! <small>This is a sub heading </small></h1>
+        <p class="lead ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla rem sed recusandae! At 
+            magnam corrupti libero soluta a quis recusandae unde similique laboriosam! Molestias 
+            maiores obcaecati laborum id, explicabo odio.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla rem sed recusandae! At 
+        magnam corrupti libero soluta a quis recusandae unde similique laboriosam! Molestias 
+        maiores obcaecati laborum id, explicabo odio.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, voluptate
+         vero dolores quos minus, asperiores dignissimos sequi autem dolor odio temporibus
+          fugiat ducimus unde soluta ipsum, aliquam eveniet dolorem natus. </p>
+
+          <hr>
+
+    <!--ALIGNMENT. AND TRANSFORMATION....-->
+
+    <p class="text-left text-lowercase">Left aligned text</p>
+    <p class="text-right text-uppercase">Right Aligned text</p>
+    <p class="text-center text-capitalize">center aligned text</p>
+    <p class="text-justify">Justified text</p>
+    <p class="text-nowrap">No wrap text</p>
+
+    <!--QUICK FLOATS-->
+
+    <div class="pull-right">Floated to right.</div>
+    <div class="pull-left">Floated to left</div>
+    <!--clearfix clears floats-->
+    <div class="clearfix"></div>
+    <hr>
+
+    <!--BLOCKQUOTES STYLING-->
+
+    <blockquote class="blockquote-reverse">
+        Take my heart away from money, i ain't interested in fame, and I pray that never change. Ambition is priceless its something that's in your veins,
+         and I put that on my name.
+        <footer>Quote by<cite>Kendrick Lamar</cite></footer>
+   
+        </blockquote>
+
+    <!--LISTS-->
+    
+    <ul class="list-unstyled">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+
+    <!--INLINE LISTS-->
+
+    <ul class="list-inline">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+
+    <!--code-->
+
+    <code> console.log("hello");</code>
+
+    <hr>
+
+    <!--CONTEXTUAL COLORS-->
+    <p class="text-primary">Hello World</p>
+    <p class="text-success">Hello World</p>
+    <p class="text-danger">Hello World</p>
+    <p class="text-warning">Hello World</p>
+    <p class="text-muted">Hello World</p>
+    <p class="text-info">Hello World</p>
+    <hr>
+
+
+    <!--contextual backgrounds-->
+    <p class="bg-primary">Hello World</p>
+    <p class="bg-success">Hello World</p>
+    <p class="bg-danger">Hello World</p>
+    <p class="bg-warning">Hello World</p>
+    <p class="bg-muted">Hello World</p>
+    <p class="bg -info">Hello World</p>
+
+    </div>
+    <hr>
+    <!--BUTTONS-->
+    <div class="container">
+        <button class="btn btn-default">Default</button>
+        <!--link as a button-->
+        <a href="" class="btn btn-default" role="button">default link</a>
+        <!--input submit button styling-->
+        <input type="submit" class="btn btn default" value='submit'>
+
+        <!--contextual buttons-->
+        <button class="btn btn-default btn-block">Default</button>
+        <button class="btn btn-info">Info</button>
+        <button class="btn btn-warning">Warning</button>
+        <button class="btn btn-danger btn-block">Danger</button>
+        <button class="btn btn-success">success</button>
+        <hr>
+        <!--button sizes-->
+        
+        <button class="btn btn-primary btn-lg">success</button>
+        <button class="btn btn-success btn-sm">success</button>
+        <button class="btn btn-success btn-xs">success</button>
+        <button class="btn btn-success" disabled="true">success</button>
+
+    </div>
+    <hr>
+
+<!--WORKING WITH FORMS-->
+    <div class="container">
+        <form action="">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" placeholder="Add Name">
+            </div>
+
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="email" class="form-control" placeholder="Add Email">
+            </div>
+
+            <div class="form-group">
+                <label for="Message">Message</label>
+                <textarea name="" class="form-control">Add Message</textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="Region">Region</label>
+                <select name="" id="" class="form-control">
+                    <option value="Default">Select a region in Kenya</option>
+                    <option value="Nairobi">Nairobi</option>
+                    <option value="Coast">Coast</option>
+                    <option value="Western">Western</option>
+                    <option value="Nyanza">Nyanza</option>
+                    <option value="Rift">Rift Valley</option>
+                    <option value="East">Eastern</option>
+                    <option value="NE">North Eastern</option>
+                </select>
+            </div>
+
+            <!--File upload-->
+            <div class="form-group">
+                <label for="file">File upload</label>
+                <input type="file" >
+                <p class="help-block">Only upload pdf or gif</p>
+            </div>
+
+            <!--CHECKBOXES AND RADIO BUTTONS-->
+            <div class="form-group">
+                <label for="checkbox"class= "form-control">
+                    <input type="checkbox" value="yes"> Yes
+                 
+                </label>
+
+
+               <button class="btn btn-info">Submit</button>
+
+               
+               
+                
+            </div>
+
+            
+        </form>
+        <!--INLINE FORMS-->
+        <form action="" class="form-inline">
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" class="form-control" placeholder="Add Email">
+            </div>
+
+            <div class="form-group">
+             <label>Password</label>
+             <input type="password" class="form-control" placeholder="Add password">
+         </div>
+
+         <div class="form-group">
+             <label>
+             <input type="checkbox" > Remember me
+             </label>
+         </div>
+
+         <button class="btn btn-success">Login</button>
+
+        </form>
+
+    </div>
+
+    <hr>
+    
+    <div class="container">
+        <!--TABLES-->
+
+        <table class="table table-striped table-bordered table-hover table-condensed">
+            <tr>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>GENDER</th>
+            <th>CITY</th>
+            </tr>
+
+            <tr>
+                <td>Victor</td>
+                <td>25</td>
+                <td>Male</td>
+                <td>Busia</td>
+            </tr>
+
+            <tr>
+                <td>Judy</td>
+                <td>27</td>
+                <td>Female</td>
+                <td>Nairobi</td>
+            </tr>
+
+            <tr>
+                <td>Evans</td>
+                <td>28</td>
+                <td>Male</td>
+                <td>Nairobi</td>
+            </tr>
+        </table>
+    </div>
+
+    <!--List Groups-->
+    <div class="container">
+        <ul class="list-group">
+            <li class="list-group-item active">Item 1</li>
+            <li class="list-group-item">Item 2</li>
+            <li class="list-group-item">Item 3</li>
+            <li class="list-group-item">Item 4</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <!--ALERTS-->
+        <div class="alert alert-success" role="alert">Success alert</div>
+        <div class="alert alert-info" role="alert">Info alert</div>
+        <div class="alert alert-danger" role="alert">A danger alert</div>
+    <hr>
+     <!--PROGRESS BARS-->
+     <div class="progress">
+         <div class="progress-bar" style="width:10%;"> 10%</div>
+     </div>
+
+     <div class="progress">
+        <div class="progress-bar progress-bar-success" style="width:90%;"> 90%</div>
+    </div>
+    <hr>
+
+    </div>
+
+<!-------------------------------jquery depedencies-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" ></script>
+  </body>
+</html>
